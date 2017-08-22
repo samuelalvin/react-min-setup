@@ -1,0 +1,34 @@
+{
+  "name": "react-min-setup",
+  "version": "0.1.0",
+  "description": "Minimal setup of ReactJs for personal reuse purpose",
+  "scripts": {
+    "build": "tsc -p src/ | node ./node_modules/webpack/bin/webpack.js",
+    "serve": "lite-server -c=bs-config.json",
+    "prestart": "npm run build",
+    "start": "npm run build | npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuelalvin/react-min-setup"
+  },
+  "keywords": [
+    "reactjs",
+    "typescript"
+  ],
+  "author": "Samuel Hutama",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.0.3",
+    "@types/react-dom": "^15.5.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "ts-loader": "^2.3.3",
+    "typescript": "^2.4.2",
+    "typescript-compiler": "^1.4.1-2",
+    "webpack": "^3.5.5"
+  }
+}
