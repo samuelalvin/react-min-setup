@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "noEmitOnError": true,
     "removeComments": true,
     "sourceMap": true,
@@ -8,7 +8,9 @@
     "target": "es5",
     "types": [
         "@types/react",
-        "@types/react-dom"
+        "@types/react-dom",
+        "@types/react-test-renderer",
+        "@types/jasmine"
     ]
   },
   "include": [

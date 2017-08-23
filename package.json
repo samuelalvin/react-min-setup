@@ -1,12 +1,13 @@
 {
   "name": "react-min-setup",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Minimal setup of ReactJs for personal reuse purpose",
   "scripts": {
-    "build": "tsc -p src/ | node ./node_modules/webpack/bin/webpack.js",
+    "build": "node ./node_modules/webpack/bin/webpack.js",
     "serve": "lite-server -c=bs-config.json",
     "prestart": "npm run build",
-    "start": "npm run build | npm run serve"
+    "start": "npm run build | npm run serve",
+    "test": "karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,18 @@
   "dependencies": {
     "@types/react": "^16.0.3",
     "@types/react-dom": "^15.5.4",
+    "@types/react-test-renderer": "^15.5.4",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1"
   },
   "devDependencies": {
+    "@types/jasmine": "^2.5.54",
+    "jasmine-core": "^2.7.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-webpack": "^2.0.4",
     "lite-server": "^2.3.0",
     "ts-loader": "^2.3.3",
     "typescript": "^2.4.2",
