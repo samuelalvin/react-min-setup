@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "noImplicitAny": false,
+    "experimentalDecorators": true,
     "noEmitOnError": true,
     "removeComments": true,
     "sourceMap": true,
@@ -11,6 +12,10 @@
         "@types/react-dom",
         "@types/react-test-renderer",
         "@types/jasmine"
+    ],
+    "lib": [
+        "es2015",
+        "dom"
     ]
   },
   "include": [
