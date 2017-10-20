@@ -20,26 +20,26 @@
   "author": "Samuel Hutama",
   "license": "MIT",
   "dependencies": {
-    "@types/react": "^16.0.3",
-    "@types/react-dom": "^15.5.4",
-    "@types/react-router-dom": "^4.0.7",
-    "@types/react-test-renderer": "^15.5.4",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-router-dom": "^4.2.2",
-    "react-test-renderer": "^15.6.1"
+    "@types/react": "16.0.3",
+    "@types/react-dom": "15.5.4",
+    "@types/react-router-dom": "4.0.7",
+    "@types/react-test-renderer": "15.5.4",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-router-dom": "4.2.2",
+    "react-test-renderer": "15.6.1"
   },
   "devDependencies": {
-    "@types/jasmine": "^2.5.54",
-    "jasmine-core": "^2.7.0",
-    "karma": "^1.7.0",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-jasmine": "^1.1.0",
-    "karma-webpack": "^2.0.4",
-    "lite-server": "^2.3.0",
-    "ts-loader": "^2.3.3",
-    "typescript": "^2.4.2",
-    "typescript-compiler": "^1.4.1-2",
-    "webpack": "^3.5.5"
+    "@types/jasmine": "2.5.54",
+    "jasmine-core": "2.7.0",
+    "karma": "1.7.0",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-jasmine": "1.1.0",
+    "karma-webpack": "2.0.4",
+    "lite-server": "2.3.0",
+    "ts-loader": "2.3.3",
+    "typescript": "2.4.2",
+    "typescript-compiler": "1.4.1-2",
+    "webpack": "3.5.5"
   }
 }
